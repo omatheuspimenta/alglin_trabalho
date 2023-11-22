@@ -8,7 +8,7 @@ Dada uma matriz quadrada de ordem $n$, $A$, estaremos entendendo por _autovalor_
 ### Orientações gerais:
 O objetivo deste trabalho é proporcionar aos alunos uma experiência prática na implementação de um algoritmo para a extração de autovalores e autovetores de uma matriz $3x3$. A implementação deve ser realizada em linguagem C, utilizando apenas as bibliotecas padrão `stdio.h` e `stdlib.h`.
 
-1. Utilize somente as bibliotecas padrão stdio.h e stdlib.h.
+1. Utilize somente as bibliotecas padrão `stdio.h` e `stdlib.h`.
 2. Implemente funções modulares para cálculos específicos, facilitando a compreensão e manutenção do código.
 3. Comente o código de forma adequada, explicando o propósito de cada seção e a lógica por trás das operações realizadas.
 4. Poderá ser feito em **até** duas pessoas.
