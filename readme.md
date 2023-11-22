@@ -2,7 +2,7 @@
 
 ### Introdução: 
 
-Dada uma matriz quadrada de ordem $n$, $A$, estaremos entendendo por \emph{autovalor} e \emph{autovetor} de $A$, autovalor e autovetor da transformação linear $T_A:\mathbb{R}^n \rightarrow \mathbb{R}^n$, associada à matriz $A$ em relação à base canônica, isto é, $T_A (v) = A \cdot v$ (na forma coluna). Assim, um autovalor $\lambda \in \mathbb{R}$ de $A$, e um autovetor $v \in \mathbb{R}^n$, são soluções da equação $A \cdot v = \lambda v, v \neq 0$.
+Dada uma matriz quadrada de ordem $n$, $A$, estaremos entendendo por _autovalor_ e _autovetor_ de $A$, autovalor e autovetor da transformação linear $T_A:\mathbb{R}^n \rightarrow \mathbb{R}^n$, associada à matriz $A$ em relação à base canônica, isto é, $T_A (v) = A \cdot v$ (na forma coluna). Assim, um autovalor $\lambda \in \mathbb{R}$ de $A$, e um autovetor $v \in \mathbb{R}^n$, são soluções da equação $A \cdot v = \lambda v, v \neq 0$.
 
 
 ### Orientações gerais:
@@ -46,6 +46,7 @@ Autovetores associados a cada autovalor:
 [-2,1,1)]
 ```
 ### Exemplo de arquivo esperado
+```c
 // Trabalho feito pelo Fulano e Beltrano
 
 #include <stdio.h>
@@ -87,7 +88,7 @@ int main() {
 
     return 0;
 }
-
+```
 
 ### Avaliação
 A avaliação do algoritmo implementado seguirá um processo automatizado através de um script. Cada dupla de alunos deverá enviar um arquivo em linguagem C (.c) contendo todas as funções utilizadas no algoritmo. Cada função deve ser devidamente documentada, explicando o propósito de sua chamada e o que é realizado em seu contexto. O arquivo .c será compilado usando o comando padrão 
