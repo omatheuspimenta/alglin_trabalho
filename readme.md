@@ -15,23 +15,24 @@ O objetivo deste trabalho é proporcionar aos alunos uma experiência prática n
 
 
 ### Entrada
-Será em formato textual....
+A entrada do algoritmo será fornecida em formato textual (.txt), seguindo a estrutura exemplificada abaixo. Cada linha do arquivo representa uma linha da matriz 3x3, e os valores dentro de cada linha são separados por espaços. Neste exemplo, a matriz é representada da seguinte forma:
 ```
 4 2 0
 -1 1 0
 0 1 2
 ```
+Cada número corresponde a um elemento da matriz, organizado de maneira que a primeira linha do arquivo representa a primeira linha da matriz, a segunda linha do arquivo representa a segunda linha da matriz, e assim por diante. Este formato facilita a leitura dos dados da matriz durante a execução do programa, permitindo que o algoritmo processe corretamente a informação fornecida.
 
 ### Saída
-Deverá ser em formato textual...
+A saída do programa será gerada em formato textual (.txt) e deve seguir a mesma estrutura exemplificada abaixo. Os nomes "Fulano" e "Beltrano" devem ser substituidos pelos nomes dos alunos da dupla (ou do aluno, caso faça individualmente). A saída incluirá a matriz de entrada, o polinômio característico, os autovalores encontrados, a matriz dos autovalores associados a cada autovalor, e os autovetores correspondentes. No exemplo fornecido:
 
 ```
 Fulano e Beltrano
 
 Matriz de entrada:
-3 0 -4
-0 3 5
-0 0 -1
+4 2 0
+-1 1 0
+0 1 2
 
 Polinômio característico:
 (x-3)^2 * (x+1) = 0
@@ -52,6 +53,9 @@ Autovetores associados a cada autovalor:
 -1:
 [(1,-5/4,1)]
 ```
+
+Esta formatação estruturada será utilizada para a correção.
+
 ### Exemplo de arquivo .c esperado
 ```c
 // Trabalho feito pelo Fulano e Beltrano
