@@ -29,23 +29,30 @@ Deverá ser em formato textual...
 Fulano e Beltrano
 
 Matriz de entrada:
-4 2 0
--1 1 0
-0 1 2
+3 0 -4
+0 3 5
+0 0 -1
+
+Polinômio característico:
+(x-3)^2 * (x+1) = 0
+
+Autovalores:
+lambda1 = 3
+lambda2 = -1
 
 Matriz dos autovalores:
-2 0 0
-0 2 0
-0 0 3
+3 0 0
+0 3 0
+0 0 -1
 
 Autovetores associados a cada autovalor:
-2:
-[(0,0,1)]
-
 3:
-[-2,1,1)]
+[(1,0,0), (0,1,0)]
+
+-1:
+[(1,-5/4,1)]
 ```
-### Exemplo de arquivo esperado
+### Exemplo de arquivo .c esperado
 ```c
 // Trabalho feito pelo Fulano e Beltrano
 
@@ -104,4 +111,7 @@ Após a compilação, o método será executado da seguinte maneira, utilizando 
 
 A saída gerada pelo programa deverá seguir o formato especificado anteriormente. O script de avaliação verificará se a saída está no formato correto e se os valores apresentados são os esperados.
 Caso ocorram erros de compilação devido a falhas lógicas no código ou outros problemas, o envio não será considerado.
+
+##### Prazo de entrega
+Até às 21h do dia 13 de dezembro de 2023 via Classroom
 
