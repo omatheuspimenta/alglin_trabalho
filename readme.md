@@ -17,9 +17,9 @@ O objetivo deste trabalho é proporcionar aos alunos uma experiência prática n
 ### Entrada
 A entrada do algoritmo será fornecida em formato textual (.txt), seguindo a estrutura exemplificada abaixo. Cada linha do arquivo representa uma linha da matriz 3x3, e os valores dentro de cada linha são separados por espaços. Neste exemplo, a matriz é representada da seguinte forma:
 ```
-4 2 0
--1 1 0
-0 1 2
+3 0 -4
+0 3 5
+0 0 -1
 ```
 Cada número corresponde a um elemento da matriz, organizado de maneira que a primeira linha do arquivo representa a primeira linha da matriz, a segunda linha do arquivo representa a segunda linha da matriz, e assim por diante. Este formato facilita a leitura dos dados da matriz durante a execução do programa, permitindo que o algoritmo processe corretamente a informação fornecida.
 
