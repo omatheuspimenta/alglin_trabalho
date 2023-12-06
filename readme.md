@@ -30,11 +30,11 @@ A saída do programa será gerada em formato textual (.txt) e deve seguir a mesm
 Fulano e Beltrano
 
 Matriz de entrada:
-4 2 0
--1 1 0
-0 1 2
+3 0 -4
+0 3 5
+0 0 -1
 
-Polinômio característico:
+Polinomio caracteristico:
 (x-3)^2 * (x+1) = 0
 
 Autovalores:
