@@ -1,0 +1,29 @@
+Fulano e Beltrano
+
+Matriz de entrada:
+2 0 0
+0 3 4
+0 4 9
+
+Polinômio característico:
+-(x-11)*(x-2)(x-1)=0
+
+Autovalores:
+lambda1 = 1
+lambda2 = 2
+lambda3 = 11
+
+Matriz dos autovalores:
+1 0 0
+0 2 0
+0 0 11
+
+Autovetores associados a cada autovalor:
+1:
+[(0,-2,1)]
+
+2:
+[(1,0,0)]
+
+11:
+[(0,1/2,1)]
